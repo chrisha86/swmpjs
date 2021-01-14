@@ -1,0 +1,9 @@
+[Unit]
+Description=SWMPjs
+
+[Service]
+Type=simple
+ExecStart=/usr/local/share/swmpjs/run.sh
+
+[Install]
+WantedBy=multi-user.target
